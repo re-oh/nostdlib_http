@@ -26,4 +26,6 @@ static inline void print(str_t s) {
     sys_write(s.ptr, s.len);
 }
 
+#define print_c(str) print(strfrom(str))
+
 #endif

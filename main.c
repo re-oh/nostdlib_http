@@ -3,8 +3,7 @@
 #include "headers/str.h"
 
 int main(args_t args) {
-    print(strfrom("Hello from MiniC!\n"));
-
+    print_c("Hello, World!\n");
     return 0;
 }
 
